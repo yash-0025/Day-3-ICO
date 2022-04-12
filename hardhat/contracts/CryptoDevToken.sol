@@ -8,7 +8,7 @@ import "./ICryptoDevs.sol";
 
 contract CryptoDevToken is ERC20, Ownable {
 //  Declaring price of the one Token
-uint256 public constant tokenPrice = 0.01 ether;
+uint256 public constant tokenPrice = 0.001 ether;
 //  Each NFT will give 10 token to the user
 //  It can be represented as 10 * (10**18) 
 uint256 public constant tokensPerNFT = 10 * 10**8;
